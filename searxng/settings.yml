@@ -2,12 +2,12 @@ general:
   # Debug mode, only for development
   debug: false
   # displayed name
-  instance_name: "searxng"
+  instance_name: "UbuNord"
   # For example: https://example.com/privacy
   privacypolicy_url: false
   # use true to use your own donation page written in searx/info/en/donate.md
   # use false to disable the donation link
-  donation_url: https://docs.searxng.org/donate.html
+  donation_url: false
   # mailto:contact@example.com
   contact_url: false
   # record stats
@@ -26,9 +26,9 @@ search:
   # Existing autocomplete backends: "dbpedia", "duckduckgo", "google", "yandex",
   # "seznam", "startpage", "swisscows", "qwant", "wikipedia" - leave blank to turn it off
   # by default.
-  autocomplete: ""
+  autocomplete: "google"
   # minimun characters to type before autocompleter starts
-  autocomplete_min: 4
+  autocomplete_min: 3
   # Default search language - leave blank to detect from browser information or
   # use codes from 'languages.py'
   default_lang: ""
@@ -61,7 +61,7 @@ server:
   # If your instance owns a /etc/searxng/settings.yml file, then set the following
   # values there.
 
-  secret_key: "9fb90686a3edea985c691678bf71d8486aaf9f769afcf1ee035409ceed59b3a5"  # change this!
+  secret_key: "hellohellomorningstar547859645344587978645736895"  # change this!
   # Proxying image results through searx
   image_proxy: false
   # 1.0 and 1.1 are supported
